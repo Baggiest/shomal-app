@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Navbar } from "../../components/Navbar";
 import { getProduct, getProducts, getProductsByCategory } from "../../data/products";
@@ -37,9 +38,28 @@ export default async function ProductPage({ params }: ProductPageProps) {
       <div className="pt-24 pb-16">
         <div className="container mx-auto px-4">
           <div className="mb-10">
-            <div className="text-sm text-[#6d6b64] mb-4">
-              خانه / محصولات / {category?.titleFa ?? "دسته بندی"} / {product.nameFa}
-            </div>
+            <nav className="text-sm text-[#6d6b64] mb-4" aria-label="Breadcrumb">
+              <Link href="/" className="hover:text-[#b89139] transition-colors">
+                خانه
+              </Link>
+              <span className="mx-2">/</span>
+              <Link href="/products" className="hover:text-[#b89139] transition-colors">
+                محصولات
+              </Link>
+              <span className="mx-2">/</span>
+              {category ? (
+                <>
+                  <Link
+                    href={`/products?category=${category.id}`}
+                    className="hover:text-[#b89139] transition-colors"
+                  >
+                    {category.titleFa}
+                  </Link>
+                  <span className="mx-2">/</span>
+                </>
+              ) : null}
+              <span className="text-[#383e42] font-medium">{product.nameFa}</span>
+            </nav>
             <h1 className="text-3xl font-bold text-[#383e42] mb-3">{product.nameFa}</h1>
             {product.descriptionFa && (
               <p className="text-[#6d6b64] leading-relaxed max-w-3xl">

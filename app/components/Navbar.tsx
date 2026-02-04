@@ -36,6 +36,7 @@ export function Navbar() {
             <a href="/about" className="text-white hover:text-[#b89139] transition-colors">درباره ما</a>
             <a href="/sales-representatives" className="text-white hover:text-[#b89139] transition-colors">نمایندگان فروش</a>
             <a href="/contact" className="text-white hover:text-[#b89139] transition-colors">تماس با ما</a>
+            <a href="/guide" className="text-white hover:text-[#b89139] transition-colors">راهنما</a>
           </nav>
 
           <div className="flex items-center gap-2">
@@ -58,6 +59,7 @@ export function Navbar() {
               <li><a href="/about" className="block text-[#383e42] hover:text-[#b89139]">درباره ما</a></li>
               <li><a href="/sales-representatives" className="block text-[#383e42] hover:text-[#b89139]">نمایندگان فروش</a></li>
               <li><a href="/contact" className="block text-[#383e42] hover:text-[#b89139]">تماس با ما</a></li>
+              <li><a href="/guide" className="block text-[#383e42] hover:text-[#b89139]">راهنما</a></li>
             </ul>
           </nav>
         </div>
