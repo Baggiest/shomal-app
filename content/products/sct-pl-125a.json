@@ -1,0 +1,12 @@
+{
+  "id": "sct-pl-125a",
+  "slug": "sct-pl-125a",
+  "categoryId": 6,
+  "name": "SCT & PL 125A",
+  "nameFa": "پریز و دوشاخه 125 آمپر",
+  "description": "Plug and socket 125A explosion-proof",
+  "descriptionFa": "پریز و دوشاخه ضد انفجار 125 آمپر",
+  "pdfFile": "sct-pl-125a.pdf",
+  "specCsvFile": "sct-pl-125a.csv",
+  "inStock": true
+}

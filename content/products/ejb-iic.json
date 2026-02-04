@@ -1,0 +1,12 @@
+{
+  "id": "ejb-iic",
+  "slug": "ejb-iic",
+  "categoryId": 2,
+  "name": "EJB IIC Series Junction Boxes",
+  "nameFa": "جعبه تقسیم سری EJB IIC",
+  "description": "EJB IIC series explosion-proof junction boxes",
+  "descriptionFa": "جعبه تقسیم ضد انفجار سری EJB IIC",
+  "pdfFile": "ejb-iic.pdf",
+  "specCsvFile": "ejb-iic.csv",
+  "inStock": true
+}

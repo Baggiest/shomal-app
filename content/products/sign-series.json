@@ -1,0 +1,12 @@
+{
+  "id": "sign-series",
+  "slug": "sign-series",
+  "categoryId": 3,
+  "name": "Sign Series Lighting",
+  "nameFa": "چراغ سری Sign",
+  "description": "Sign series lighting fixtures",
+  "descriptionFa": "چراغ‌های روشنایی سری Sign",
+  "pdfFile": "sign-series.pdf",
+  "specCsvFile": "sign-series.csv",
+  "inStock": true
+}

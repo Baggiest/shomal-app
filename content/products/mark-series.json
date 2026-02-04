@@ -1,0 +1,12 @@
+{
+  "id": "mark-series",
+  "slug": "mark-series",
+  "categoryId": 2,
+  "name": "Mark Series Junction Boxes",
+  "nameFa": "جعبه تقسیم سری Mark",
+  "description": "Mark series explosion-proof junction boxes",
+  "descriptionFa": "جعبه تقسیم ضد انفجار سری Mark",
+  "pdfFile": "mark-series.pdf",
+  "specCsvFile": "mark-series.csv",
+  "inStock": true
+}

@@ -1,0 +1,12 @@
+{
+  "id": "sct-pl-63a",
+  "slug": "sct-pl-63a",
+  "categoryId": 6,
+  "name": "SCT & PL 63A",
+  "nameFa": "پریز و دوشاخه 63 آمپر",
+  "description": "Plug and socket 63A explosion-proof",
+  "descriptionFa": "پریز و دوشاخه ضد انفجار 63 آمپر",
+  "pdfFile": "sct-pl-63a.pdf",
+  "specCsvFile": "sct-pl-63a.csv",
+  "inStock": true
+}

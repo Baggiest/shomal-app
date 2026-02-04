@@ -1,0 +1,12 @@
+{
+  "id": "fcp120",
+  "slug": "fcp120",
+  "categoryId": 4,
+  "name": "FCP120 Distribution & Control System",
+  "nameFa": "سیستم توزیع و کنترل FCP120",
+  "description": "Distribution and control system model FCP120",
+  "descriptionFa": "سیستم توزیع و کنترل مدل FCP120",
+  "pdfFile": "fcp120.pdf",
+  "specCsvFile": "fcp120.csv",
+  "inStock": true
+}

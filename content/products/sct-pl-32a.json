@@ -1,0 +1,12 @@
+{
+  "id": "sct-pl-32a",
+  "slug": "sct-pl-32a",
+  "categoryId": 6,
+  "name": "SCT & PL 32A",
+  "nameFa": "پریز و دوشاخه 32 آمپر",
+  "description": "Plug and socket 32A explosion-proof",
+  "descriptionFa": "پریز و دوشاخه ضد انفجار 32 آمپر",
+  "pdfFile": "sct-pl-32a.pdf",
+  "specCsvFile": "sct-pl-32a.csv",
+  "inStock": true
+}

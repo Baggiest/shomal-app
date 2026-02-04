@@ -3,7 +3,7 @@ export function Hero() {
     <section className="relative h-screen">
       <div className="absolute inset-0">
         <img
-          src="https://ext.same-assets.com/2455557907/1858527570.jpeg"
+          src="/images/hero-background.jpeg"
           alt="Shomal Factory"
           className="w-full h-full object-cover"
         />
@@ -19,7 +19,7 @@ export function Hero() {
       <div className="absolute bottom-0 left-0 right-0 bg-white/95 backdrop-blur-sm">
         <div className="container mx-auto">
           <div className="flex justify-center items-center divide-x divide-gray-200">
-            <a href="#contact" className="nav-tab flex-1 text-center py-4 hover:bg-gray-50">
+            <a href="/contact" className="nav-tab flex-1 text-center py-4 hover:bg-gray-50">
               <svg className="w-6 h-6 mx-auto mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
               </svg>

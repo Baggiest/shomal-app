@@ -1,0 +1,12 @@
+{
+  "id": "cable-gland-industrial",
+  "slug": "cable-gland-industrial",
+  "categoryId": 1,
+  "name": "Industrial Cable Glands",
+  "nameFa": "کابل گلند صنعتی",
+  "description": "Industrial cable glands and connectors",
+  "descriptionFa": "کابل گلند و کانکتور صنعتی",
+  "pdfFile": "cable-gland-industrial.pdf",
+  "specCsvFile": "cable-gland-industrial.csv",
+  "inStock": true
+}

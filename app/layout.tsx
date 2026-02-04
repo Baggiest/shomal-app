@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Vazirmatn } from "next/font/google";
 import "./globals.css";
 import { ClientBody } from "./ClientBody";
 
@@ -10,6 +11,11 @@ export const metadata: Metadata = {
   },
 };
 
+const vazirmatn = Vazirmatn({
+  subsets: ["arabic"],
+  weight: ["400", "500", "600", "700"],
+});
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -17,7 +23,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fa" dir="rtl">
-      <ClientBody>{children}</ClientBody>
+      <ClientBody className={`${vazirmatn.className} antialiased`}>{children}</ClientBody>
     </html>
   );
 }

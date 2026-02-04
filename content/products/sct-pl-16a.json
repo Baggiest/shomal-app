@@ -1,0 +1,12 @@
+{
+  "id": "sct-pl-16a",
+  "slug": "sct-pl-16a",
+  "categoryId": 6,
+  "name": "SCT & PL 16A",
+  "nameFa": "پریز و دوشاخه 16 آمپر",
+  "description": "Plug and socket 16A explosion-proof",
+  "descriptionFa": "پریز و دوشاخه ضد انفجار 16 آمپر",
+  "pdfFile": "sct-pl-16a.pdf",
+  "specCsvFile": "sct-pl-16a.csv",
+  "inStock": true
+}

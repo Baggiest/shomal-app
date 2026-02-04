@@ -1,3 +1,6 @@
+import { promises as fs } from "fs";
+import path from "path";
+
 export interface ProductCategory {
   id: number;
   title: string;
@@ -5,54 +8,20 @@ export interface ProductCategory {
   image: string;
 }
 
-export const productCategories: ProductCategory[] = [
-  {
-    id: 1,
-    title: "Cable glands and connectors",
-    titleFa: "کابل گلند و کانکتورها",
-    image: "https://ext.same-assets.com/2455557907/2731281808.jpeg",
-  },
-  {
-    id: 2,
-    title: "Junction Boxes",
-    titleFa: "جعبه تقسیم",
-    image: "https://ext.same-assets.com/2455557907/2458856376.jpeg",
-  },
-  {
-    id: 3,
-    title: "Lighting Fixtures",
-    titleFa: "چراغ‌های روشنایی",
-    image: "https://ext.same-assets.com/2455557907/1277383542.jpeg",
-  },
-  {
-    id: 4,
-    title: "Distribution & Control System",
-    titleFa: "سیستم توزیع و کنترل",
-    image: "https://ext.same-assets.com/2455557907/710153250.png",
-  },
-  {
-    id: 5,
-    title: "Control and command equipment",
-    titleFa: "تجهیزات کنترل و فرمان",
-    image: "https://ext.same-assets.com/2455557907/3730419720.jpeg",
-  },
-  {
-    id: 6,
-    title: "Plugs and sockets",
-    titleFa: "پریز و دوشاخه",
-    image: "https://ext.same-assets.com/2455557907/3041832876.jpeg",
-  },
-  {
-    id: 7,
-    title: "weatherproof series",
-    titleFa: "سری ضد آب",
-    image: "https://ext.same-assets.com/2455557907/2288531115.jpeg",
-  },
-  {
-    id: 8,
-    title: "signalling equipment",
-    titleFa: "تجهیزات سیگنالینگ",
-    image: "https://ext.same-assets.com/2455557907/2906518887.jpeg",
-  },
-];
+const categoriesDir = path.join(process.cwd(), "content", "product-categories");
+
+export async function getProductCategories(): Promise<ProductCategory[]> {
+  const files = await fs.readdir(categoriesDir);
+  const items = await Promise.all(
+    files
+      .filter((file) => file.endsWith(".json"))
+      .map(async (file) => {
+        const filePath = path.join(categoriesDir, file);
+        const contents = await fs.readFile(filePath, "utf-8");
+        return JSON.parse(contents) as ProductCategory;
+      })
+  );
+
+  return items.sort((a, b) => a.id - b.id);
+}
 

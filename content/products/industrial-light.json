@@ -1,0 +1,12 @@
+{
+  "id": "industrial-light",
+  "slug": "industrial-light",
+  "categoryId": 3,
+  "name": "Industrial Light",
+  "nameFa": "چراغ صنعتی",
+  "description": "Industrial lighting fixture",
+  "descriptionFa": "چراغ روشنایی صنعتی",
+  "pdfFile": "industrial-light.pdf",
+  "specCsvFile": "industrial-light.csv",
+  "inStock": true
+}

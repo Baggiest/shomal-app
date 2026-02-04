@@ -1,0 +1,12 @@
+{
+  "id": "fcp241",
+  "slug": "fcp241",
+  "categoryId": 4,
+  "name": "FCP241 Distribution & Control System",
+  "nameFa": "سیستم توزیع و کنترل FCP241",
+  "description": "Distribution and control system model FCP241",
+  "descriptionFa": "سیستم توزیع و کنترل مدل FCP241",
+  "pdfFile": "fcp241.pdf",
+  "specCsvFile": "fcp241.csv",
+  "inStock": true
+}

@@ -23,7 +23,7 @@ export function Navbar() {
           <div className="flex items-center">
             <a href="/">
               <img
-                src="https://ext.same-assets.com/2455557907/926858262.png"
+                src="/images/logo.png"
                 alt="S.E.M.C Logo"
                 className="h-16 w-16 fill-white"
               />
@@ -33,13 +33,14 @@ export function Navbar() {
           <nav className="hidden md:flex items-center gap-8">
             <a href="/" className="text-white hover:text-[#b89139] transition-colors">خانه</a>
             <a href="/products" className="text-white hover:text-[#b89139] transition-colors">محصولات</a>
-            <a href="#about" className="text-white hover:text-[#b89139] transition-colors">درباره ما</a>
-            <a href="#contact" className="text-white hover:text-[#b89139] transition-colors">تماس با ما</a>
+            <a href="/about" className="text-white hover:text-[#b89139] transition-colors">درباره ما</a>
+            <a href="/sales-representatives" className="text-white hover:text-[#b89139] transition-colors">نمایندگان فروش</a>
+            <a href="/contact" className="text-white hover:text-[#b89139] transition-colors">تماس با ما</a>
           </nav>
 
           <div className="flex items-center gap-2">
             <img
-              src="https://ext.same-assets.com/2455557907/2590094435.svg"
+              src="/images/flag-persian.svg"
               alt="Persian"
               className="w-5 h-4"
             />
@@ -54,8 +55,9 @@ export function Navbar() {
             <ul className="space-y-4">
               <li><a href="/" className="block text-[#383e42] hover:text-[#b89139]">خانه</a></li>
               <li><a href="/products" className="block text-[#383e42] hover:text-[#b89139]">محصولات</a></li>
-              <li><a href="#about" className="block text-[#383e42] hover:text-[#b89139]">درباره ما</a></li>
-              <li><a href="#contact" className="block text-[#383e42] hover:text-[#b89139]">تماس با ما</a></li>
+              <li><a href="/about" className="block text-[#383e42] hover:text-[#b89139]">درباره ما</a></li>
+              <li><a href="/sales-representatives" className="block text-[#383e42] hover:text-[#b89139]">نمایندگان فروش</a></li>
+              <li><a href="/contact" className="block text-[#383e42] hover:text-[#b89139]">تماس با ما</a></li>
             </ul>
           </nav>
         </div>

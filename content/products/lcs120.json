@@ -1,0 +1,12 @@
+{
+  "id": "lcs120",
+  "slug": "lcs120",
+  "categoryId": 5,
+  "name": "LCS 120 Control and Command Equipment",
+  "nameFa": "تجهیزات کنترل و فرمان LCS 120",
+  "description": "Control and command equipment model LCS 120",
+  "descriptionFa": "تجهیزات کنترل و فرمان مدل LCS 120",
+  "pdfFile": "lcs120.pdf",
+  "specCsvFile": "lcs120.csv",
+  "inStock": true
+}

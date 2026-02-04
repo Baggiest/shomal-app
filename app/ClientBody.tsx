@@ -1,8 +1,13 @@
 "use client";
 
-export function ClientBody({ children }: { children: React.ReactNode }) {
+type ClientBodyProps = {
+  children: React.ReactNode;
+  className?: string;
+};
+
+export function ClientBody({ children, className }: ClientBodyProps) {
   return (
-    <body className="antialiased" dir="rtl">
+    <body className={className} dir="rtl">
       {children}
     </body>
   );

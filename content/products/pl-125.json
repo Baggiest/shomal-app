@@ -1,0 +1,12 @@
+{
+  "id": "pl-125",
+  "slug": "pl-125",
+  "categoryId": 6,
+  "name": "PL 125",
+  "nameFa": "پریز PL 125",
+  "description": "Plug and socket PL 125",
+  "descriptionFa": "پریز و دوشاخه PL 125",
+  "pdfFile": "pl-125.pdf",
+  "specCsvFile": "pl-125.csv",
+  "inStock": true
+}

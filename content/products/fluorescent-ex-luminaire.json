@@ -1,0 +1,12 @@
+{
+  "id": "fluorescent-ex-luminaire",
+  "slug": "fluorescent-ex-luminaire",
+  "categoryId": 3,
+  "name": "Fluorescent Ex Luminaire",
+  "nameFa": "چراغ فلورسنت ضد انفجار",
+  "description": "Fluorescent explosion-proof luminaire",
+  "descriptionFa": "چراغ فلورسنت ضد انفجار",
+  "pdfFile": "fluorescent-ex-luminaire.pdf",
+  "specCsvFile": "fluorescent-ex-luminaire.csv",
+  "inStock": true
+}

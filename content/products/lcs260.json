@@ -1,0 +1,12 @@
+{
+  "id": "lcs260",
+  "slug": "lcs260",
+  "categoryId": 5,
+  "name": "LCS 260 Control and Command Equipment",
+  "nameFa": "تجهیزات کنترل و فرمان LCS 260",
+  "description": "Control and command equipment model LCS 260",
+  "descriptionFa": "تجهیزات کنترل و فرمان مدل LCS 260",
+  "pdfFile": "lcs260.pdf",
+  "specCsvFile": "lcs260.csv",
+  "inStock": true
+}

@@ -1,0 +1,12 @@
+{
+  "id": "ljb-series",
+  "slug": "ljb-series",
+  "categoryId": 2,
+  "name": "LJB Series Junction Boxes",
+  "nameFa": "جعبه تقسیم سری LJB",
+  "description": "Explosion-proof junction boxes LJB series",
+  "descriptionFa": "جعبه تقسیم ضد انفجار سری LJB",
+  "pdfFile": "ljb-series.pdf",
+  "specCsvFile": "ljb-series.csv",
+  "inStock": true
+}

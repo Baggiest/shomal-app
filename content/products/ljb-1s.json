@@ -1,0 +1,13 @@
+{
+  "id": "ljb-1s",
+  "slug": "ljb-1s",
+  "categoryId": 2,
+  "name": "LJB 1S",
+  "nameFa": "LJB 1S",
+  "description": "Selector switch for control and command systems",
+  "descriptionFa": "سوئیچ قطع و وصل کنترلی سلکتوری مدل LJB1-S شرکت ماشین سازی شمال برای انتخاب و تغییر حالت بین چندین وضعیت یا مدار مختلف در یک سیستم الکتریکی استفاده می‌شود. این سوئیچ‌ها به طور گسترده در سیستم‌های کنترلی و صنعتی برای تغییر وضعیت تجهیزات، مدارها یا فرآیندها به کار می‌روند.",
+  "image": "/images/product-ljb-1s.png",
+  "pdfFile": "ljb-1s.pdf",
+  "specCsvFile": "ljb-1s.csv",
+  "inStock": true
+}

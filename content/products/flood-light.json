@@ -1,0 +1,12 @@
+{
+  "id": "flood-light",
+  "slug": "flood-light",
+  "categoryId": 3,
+  "name": "Flood Light",
+  "nameFa": "چراغ پرتابل",
+  "description": "Flood light for industrial applications",
+  "descriptionFa": "چراغ پرتابل برای کاربردهای صنعتی",
+  "pdfFile": "flood-light.pdf",
+  "specCsvFile": "flood-light.csv",
+  "inStock": true
+}

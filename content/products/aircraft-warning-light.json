@@ -1,0 +1,12 @@
+{
+  "id": "aircraft-warning-light",
+  "slug": "aircraft-warning-light",
+  "categoryId": 3,
+  "name": "Aircraft Warning Light",
+  "nameFa": "چراغ هشدار هواپیما",
+  "description": "Aircraft warning light for industrial facilities",
+  "descriptionFa": "چراغ هشدار هواپیما برای تأسیسات صنعتی",
+  "pdfFile": "aircraft-warning-light.pdf",
+  "specCsvFile": "aircraft-warning-light.csv",
+  "inStock": true
+}

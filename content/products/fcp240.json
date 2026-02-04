@@ -1,0 +1,12 @@
+{
+  "id": "fcp240",
+  "slug": "fcp240",
+  "categoryId": 4,
+  "name": "FCP240 Distribution & Control System",
+  "nameFa": "سیستم توزیع و کنترل FCP240",
+  "description": "Distribution and control system model FCP240",
+  "descriptionFa": "سیستم توزیع و کنترل مدل FCP240",
+  "pdfFile": "fcp240.pdf",
+  "specCsvFile": "fcp240.csv",
+  "inStock": true
+}

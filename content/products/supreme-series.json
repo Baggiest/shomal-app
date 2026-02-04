@@ -1,0 +1,12 @@
+{
+  "id": "supreme-series",
+  "slug": "supreme-series",
+  "categoryId": 2,
+  "name": "Supreme Series Junction Boxes",
+  "nameFa": "جعبه تقسیم سری Supreme",
+  "description": "Supreme series explosion-proof junction boxes",
+  "descriptionFa": "جعبه تقسیم ضد انفجار سری Supreme",
+  "pdfFile": "supreme-series.pdf",
+  "specCsvFile": "supreme-series.csv",
+  "inStock": true
+}

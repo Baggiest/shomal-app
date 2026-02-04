@@ -1,0 +1,12 @@
+{
+  "id": "ltb-series",
+  "slug": "ltb-series",
+  "categoryId": 2,
+  "name": "LTB Series Junction Boxes",
+  "nameFa": "جعبه تقسیم سری LTB",
+  "description": "LTB series explosion-proof junction boxes",
+  "descriptionFa": "جعبه تقسیم ضد انفجار سری LTB",
+  "pdfFile": "ltb-series.pdf",
+  "specCsvFile": "ltb-series.csv",
+  "inStock": true
+}

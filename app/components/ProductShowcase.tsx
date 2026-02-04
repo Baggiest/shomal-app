@@ -1,8 +1,17 @@
-export function ProductShowcase() {
+import { getProducts } from "../data/products";
+
+export async function ProductShowcase() {
+  const products = await getProducts();
+  const featuredProduct = products.find((product) => product.slug === "ljb-1s") ?? products[0];
+
+  if (!featuredProduct) {
+    return null;
+  }
+
   return (
     <section className="relative">
       <img
-        src="https://ext.same-assets.com/2455557907/4283118843.jpeg"
+        src="/images/product-showcase-background.jpeg"
         alt="Factory View"
         className="w-full h-[500px] object-cover"
       />
@@ -10,19 +19,22 @@ export function ProductShowcase() {
         <div className="container mx-auto">
           <div className="flex items-end justify-between">
             <div className="text-white max-w-2xl text-right">
-              <h2 className="text-2xl font-bold mb-2">LJB 1S</h2>
-              <p className="text-sm leading-relaxed">
-                سوئیچ قطع و وصل کنترلی سلکتوری مدل LJB1-S شرکت ماشین سازی شمال برای
-                انتخاب و تغییر حالت بین چندین وضعیت یا مدار مختلف در یک سیستم الکتریکی
-                استفاده می‌شود. این سوئیچ‌ها به طور گسترده در سیستم‌های کنترلی و صنعتی برای
-                تغییر وضعیت تجهیزات، مدارها یا فرآیندها به کار می‌روند.
-              </p>
+              <h2 className="text-2xl font-bold mb-2">{featuredProduct.nameFa}</h2>
+              {featuredProduct.descriptionFa && (
+                <p className="text-sm leading-relaxed">
+                  {featuredProduct.descriptionFa}
+                </p>
+              )}
             </div>
-            <img
-              src="https://ext.same-assets.com/2455557907/3250288881.png"
-              alt="LJB 1S Product"
-              className="h-32 w-auto"
-            />
+            {featuredProduct.image && (
+              <a href={`/products/${featuredProduct.slug}`}>
+                <img
+                  src={featuredProduct.image}
+                  alt={featuredProduct.nameFa}
+                  className="h-32 w-auto"
+                />
+              </a>
+            )}
           </div>
         </div>
       </div>

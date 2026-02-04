@@ -1,0 +1,12 @@
+{
+  "id": "led-ex-luminaire",
+  "slug": "led-ex-luminaire",
+  "categoryId": 3,
+  "name": "LED Ex Luminaire",
+  "nameFa": "چراغ LED ضد انفجار",
+  "description": "LED explosion-proof luminaire",
+  "descriptionFa": "چراغ LED ضد انفجار",
+  "pdfFile": "led-ex-luminaire.pdf",
+  "specCsvFile": "led-ex-luminaire.csv",
+  "inStock": true
+}

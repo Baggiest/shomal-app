@@ -1,0 +1,12 @@
+{
+  "id": "flba-miol",
+  "slug": "flba-miol",
+  "categoryId": 8,
+  "name": "FLBA MIOL",
+  "nameFa": "FLBA MIOL",
+  "description": "Signaling equipment FLBA MIOL",
+  "descriptionFa": "تجهیزات سیگنالینگ FLBA MIOL",
+  "pdfFile": "flba-miol.pdf",
+  "specCsvFile": "flba-miol.csv",
+  "inStock": true
+}

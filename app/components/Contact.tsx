@@ -7,7 +7,7 @@ export function Contact() {
             <div className="map-container">
               <a href="https://maps.app.goo.gl/cPY4Vvo2sLm2NKyb6" target="_blank" rel="noopener noreferrer">
                 <img
-                  src="https://ext.same-assets.com/2455557907/2995777435.jpeg"
+                  src="/images/map.jpeg"
                   alt="Factory Location Map"
                   className="w-full h-64 object-cover rounded-lg"
                 />
@@ -19,15 +19,15 @@ export function Contact() {
                 <h3 className="text-xl font-bold mb-4 text-[#b89139]">کارخانه</h3>
                 <div className="space-y-3 text-gray-300">
                   <div className="flex items-center gap-3">
-                    <img src="https://ext.same-assets.com/2455557907/2554344160.png" alt="" className="w-5 h-5" />
+                    <img src="/images/icon-location.png" alt="" className="w-5 h-5" />
                     <span>استان مازندران – سلمانشهر، شهرک صنعتی سلمانشهر خیابان C2</span>
                   </div>
                   <div className="flex items-center gap-3">
-                    <img src="https://ext.same-assets.com/2455557907/3888284797.png" alt="" className="w-5 h-5" />
+                    <img src="/images/icon-phone.png" alt="" className="w-5 h-5" />
                     <span dir="ltr">01154663410 - 01154663411</span>
                   </div>
                   <div className="flex items-center gap-3">
-                    <img src="https://ext.same-assets.com/2455557907/1736423826.png" alt="" className="w-5 h-5" />
+                    <img src="/images/icon-fax.png" alt="" className="w-5 h-5" />
                     <span dir="ltr">01154663420 - 01154663413</span>
                   </div>
                 </div>
@@ -37,15 +37,15 @@ export function Contact() {
                 <h3 className="text-xl font-bold mb-4 text-[#b89139]">صدای مشتری</h3>
                 <div className="space-y-3 text-gray-300">
                   <div className="flex items-center gap-3">
-                    <img src="https://ext.same-assets.com/2455557907/2936515759.png" alt="" className="w-5 h-5" />
+                    <img src="/images/icon-phone-alt.png" alt="" className="w-5 h-5" />
                     <span dir="ltr">01144468832</span>
                   </div>
                   <div className="flex items-center gap-3">
-                    <img src="https://ext.same-assets.com/2455557907/2936515759.png" alt="" className="w-5 h-5" />
+                    <img src="/images/icon-phone-alt.png" alt="" className="w-5 h-5" />
                     <span dir="ltr">09031117140</span>
                   </div>
                   <div className="flex items-center gap-3">
-                    <img src="https://ext.same-assets.com/2455557907/746589440.png" alt="" className="w-5 h-5" />
+                    <img src="/images/icon-email.png" alt="" className="w-5 h-5" />
                     <span>voc@shomal.com</span>
                   </div>
                 </div>
@@ -55,15 +55,15 @@ export function Contact() {
                 <h3 className="text-xl font-bold mb-4 text-[#b89139]">دفتر فروش تهران</h3>
                 <div className="space-y-3 text-gray-300">
                   <div className="flex items-center gap-3">
-                    <img src="https://ext.same-assets.com/2455557907/2554344160.png" alt="" className="w-5 h-5" />
+                    <img src="/images/icon-location.png" alt="" className="w-5 h-5" />
                     <span>تهران - خیابان پاسداران – بهارستان دوم - پلاک 5</span>
                   </div>
                   <div className="flex items-center gap-3">
-                    <img src="https://ext.same-assets.com/2455557907/3888284797.png" alt="" className="w-5 h-5" />
+                    <img src="/images/icon-phone.png" alt="" className="w-5 h-5" />
                     <span dir="ltr">021-22541212</span>
                   </div>
                   <div className="flex items-center gap-3">
-                    <img src="https://ext.same-assets.com/2455557907/746589440.png" alt="" className="w-5 h-5" />
+                    <img src="/images/icon-email.png" alt="" className="w-5 h-5" />
                     <span>shomal@shomal.com</span>
                   </div>
                 </div>
@@ -73,11 +73,11 @@ export function Contact() {
                 <h3 className="text-xl font-bold mb-4 text-[#b89139]">دفتر فروش کارخانه</h3>
                 <div className="space-y-3 text-gray-300">
                   <div className="flex items-center gap-3">
-                    <img src="https://ext.same-assets.com/2455557907/3888284797.png" alt="" className="w-5 h-5" />
+                    <img src="/images/icon-phone.png" alt="" className="w-5 h-5" />
                     <span dir="ltr">09426001061</span>
                   </div>
                   <div className="flex items-center gap-3">
-                    <img src="https://ext.same-assets.com/2455557907/2554344160.png" alt="" className="w-5 h-5" />
+                    <img src="/images/icon-location.png" alt="" className="w-5 h-5" />
                     <span>استان مازندران – سلمانشهر، شهرک صنعتی سلمانشهر خیابان C2</span>
                   </div>
                 </div>

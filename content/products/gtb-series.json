@@ -1,0 +1,12 @@
+{
+  "id": "gtb-series",
+  "slug": "gtb-series",
+  "categoryId": 2,
+  "name": "GTB Series Junction Boxes",
+  "nameFa": "جعبه تقسیم سری GTB",
+  "description": "GTB series explosion-proof junction boxes",
+  "descriptionFa": "جعبه تقسیم ضد انفجار سری GTB",
+  "pdfFile": "gtb-series.pdf",
+  "specCsvFile": "gtb-series.csv",
+  "inStock": true
+}

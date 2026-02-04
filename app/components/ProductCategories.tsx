@@ -1,6 +1,8 @@
-import { productCategories } from "../data/productCategories";
+import { getProductCategories } from "../data/productCategories";
 
-export function ProductCategories() {
+export async function ProductCategories() {
+  const productCategories = await getProductCategories();
+
   return (
     <section id="products" className="py-16 bg-[#f7f7f7]">
       <div className="container mx-auto px-4">
@@ -13,15 +15,15 @@ export function ProductCategories() {
               href={`/products?category=${product.id}`}
               className="product-card bg-white rounded-lg overflow-hidden cursor-pointer block"
             >
-              <div className="h-48 bg-gray-100 flex items-center justify-center p-4">
+              <div className="h-48 bg-white flex items-center justify-center p-4">
                 <img
                   src={product.image}
-                  alt={product.title}
+                  alt={product.titleFa}
                   className="max-h-full max-w-full object-contain"
                 />
               </div>
               <div className="p-4 text-center">
-                <h3 className="text-[#383e42] font-medium">{product.title}</h3>
+                <h3 className="text-[#383e42] font-medium">{product.titleFa}</h3>
               </div>
             </a>
           ))}
